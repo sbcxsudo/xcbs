@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "rootDir": "src",
+      "outDir": "dist",
+      "noImplicitReturns": false,
+      "experimentalDecorators": true,
+      "skipLibCheck": true,
+      "removeComments": true,
+      "strict": false,
+      "moduleResolution": "Node16",
+      "module": "Node16",
+    },
+    "include": [
+      "src"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
