@@ -6,4 +6,4 @@ Under this license you are not permitted to:
 - Distribute
 
 Or use any part of this software without explicit written permission/consent from the author.
-All rights reserved © [cascxdee], [Year]
+All rights reserved © [cascxdee], [2024-Present]
