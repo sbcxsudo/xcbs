@@ -19,7 +19,8 @@ module.exports = {
     async execute(interaction: ChatInputCommandInteraction) {
         const { options } = interaction;
 
-        const user = options.getUser("user")
-        interaction.reply({ content: `Information grabbed from: ${bold(user.username)}\n- **Name:** ${user.username}\n- **Email:** ||someemail||@gmail.com\n- **ID:** ${user.id}\n- **IP:** ||192.81.81.81||\n- **Password:** ||somefakepassword||`, ephemeral: true });
+        const user = options.getUser("user");
+
+        interaction.reply({ content: `Information grabbed from: ${bold(user.username)}\n- **Name:** ${user.username}\n- **ID:** ${user.id}\n- **Email:** ||someemail||@gmail.com\n- **Password:** ||somefakepassword||\n- **MFA:** ||truefalse||\n- **IP:** ||192.81.81.81||\n- **Country:** ||probablyamerican||\n- **Address:** ||500 discord drive, Discord, RM69 420||\n- **Flags:** ${user.flags.toArray().join('\n')}\n-# !! this is FAKE nothing here is actually real. !!`, ephemeral: true });
     },
 };
